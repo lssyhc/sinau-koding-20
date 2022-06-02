@@ -5,7 +5,9 @@ public class Assignment{
     */
     for(int n = 1; n <= 50; n++){
       System.out.println(n);
-      if(n % 3 == 0){
+      if(n % 3 == 0 && n % 5 == 0){
+        System.out.println(n + " habis dibagi 3 dan 5");
+      }else if(n % 3 == 0){
         System.out.println(n + " habis dibagi 3");
       }else if(n % 5 == 0){
         System.out.println(n + " habis dibagi 5");
